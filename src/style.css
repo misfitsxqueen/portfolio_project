@@ -23,6 +23,7 @@ h4 {
 }
 
 h1 {
+      margin-top: 150px;
       font-size: 96px;
       color: var(--secondary-color);
       ;
