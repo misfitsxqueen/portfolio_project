@@ -1,10 +1,10 @@
 :root {
-      --primary-color: #A0D995;
-      --secondary-color: #31b9d1;
-      --tertiary-color: #49cab9;
-      --quaternary-color: #F6E3C5;
-      --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-      --text-shadow: 5px 5px 6px rgba(85, 164, 125, 0.5);
+      --primary-color: #130133;
+      --secondary-color: #FFC23C;
+      --tertiary-color: #370b8a;
+      --quaternary-color: #FA2FB5;
+      --box-shadow: 0 5px 10px #ff901154;
+      --text-shadow: 5px 5px 6px #f7b62b83;
 }
 
 body {
@@ -16,7 +16,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
       margin: 0;
       text-shadow: var(--text-shadow);
       font-family: 'Shrikhand', cursive;
@@ -36,7 +37,6 @@ h2 {
 
 h3 {
       font-size: 36px;
-      opacity: 0.7;
       color: var(--secondary-color);
       margin-bottom: 50px;
 }
@@ -45,6 +45,14 @@ h4 {
       font-size: 24px;
       color: var(--secondary-color);
       margin-bottom: 30px;
+}
+
+h5 {
+      font-size: 24px;
+      color: var(--secondary-color);
+      margin-top: 40px;
+      margin-bottom: 15px;
+      text-decoration: underline;
 }
 
 p {
@@ -88,9 +96,9 @@ footer {
       padding: 20px 15px;
       text-decoration: none;
       text-transform: capitalize;
-      background: var(--tertiary-color);
+      background: var(--secondary-color);
       box-shadow: var(--box-shadow);
-      color: var(--quaternary-color);
+      color: #fff;
 }
 
 .primary-link:hover {
@@ -133,9 +141,22 @@ footer {
 
 .me {
       max-width: 200px;
-      border: 3px solid #0dcaf0;
+      border: 3px solid var(--secondary-color);
       border-radius: 150px;
       margin-bottom: 35px;
+}
+
+.github-link {
+      color: #fff;
+}
+
+.github-link:hover {
+      color: var(--quaternary-color);
+
+}
+
+li {
+      color: var(--tertiary-color);
 }
 
 @media (max-width: 576px) {
