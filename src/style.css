@@ -1,10 +1,10 @@
 :root {
-      --primary-color: #130133;
-      --secondary-color: #FFC23C;
-      --tertiary-color: #370b8a;
-      --quaternary-color: #FA2FB5;
-      --box-shadow: 0 5px 10px #ff901154;
-      --text-shadow: 5px 5px 6px #f7b62b83;
+      --primary-color: #000000;
+      --secondary-color: #0dcaf0;
+      --tertiary-color: #00aed169;
+      --quaternary-color: #ffffff;
+      --box-shadow: 0 5px 10px #00607469;
+      --text-shadow: 5px 5px 6px #00aed169;
 }
 
 body {
